@@ -1,0 +1,14 @@
+interviewed Eric Palo, OIT librarian
+
+new applications
+ - room booking service
+
+student ID
+room number
+how long and when it's gonna checked out for
+
+how to verify its an appropriate person, checking credentials - check against database that it is a valid ID
+how long can a person reserve for one time, how often they can reserve it
+there is an issue with a booking time padding of 15 minutes that is unecessary
+
+when booking, description of the room, how big is the room, how many chairs, if there are whiteboards
