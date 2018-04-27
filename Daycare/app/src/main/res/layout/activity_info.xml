@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckActivity">
+
+    <TextView
+        android:id="@+id/infoTime2"
+        android:layout_width="100"
+        android:layout_height="40"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="6a-8p"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoTime1" />
+
+    <TextView
+        android:id="@+id/infoCost2"
+        android:layout_width="0dp"
+        android:layout_height="40"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="$##.##"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/infoTime2"
+        app:layout_constraintStart_toEndOf="@+id/infoAge2"
+        app:layout_constraintTop_toBottomOf="@+id/infoCost1" />
+
+    <TextView
+        android:id="@+id/infoAge2"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="1-3"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoAge1" />
+
+    <TextView
+        android:id="@+id/infoAge1"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="0-1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoAGE" />
+
+    <TextView
+        android:id="@+id/infoAGE"
+        android:layout_width="75"
+        android:layout_height="25"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="AGE"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoCOST"
+        android:layout_width="0dp"
+        android:layout_height="25"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="COST/HOUR"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/infoTIME"
+        app:layout_constraintStart_toEndOf="@+id/infoAGE"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoTIME"
+        android:layout_width="100"
+        android:layout_height="25"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="TIME"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoCost1"
+        android:layout_width="0dp"
+        android:layout_height="40"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="$##.##"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/infoTime1"
+        app:layout_constraintStart_toEndOf="@+id/infoAge1"
+        app:layout_constraintTop_toBottomOf="@+id/infoCOST" />
+
+    <TextView
+        android:id="@+id/infoTime1"
+        android:layout_width="100"
+        android:layout_height="40"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="24/7"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoTIME" />
+</android.support.constraint.ConstraintLayout>
