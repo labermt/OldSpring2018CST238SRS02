@@ -1,7 +1,9 @@
 # CST238SRS02
 Interviewing Skills
 
-Name: 
+Name: Jake Knudsen
+
+Notes: None
 
 ---
 
