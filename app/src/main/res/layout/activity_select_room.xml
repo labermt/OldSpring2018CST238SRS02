@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectRoomActivity">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:text="Living Room"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:text="Kitchen"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:text="Bathroom"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:text="Bedroom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="Garage"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="Deck"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="Basement"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="Attic"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Total Estimated Cost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Select a room or view total estimated cost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="25dp" />
+</android.support.constraint.ConstraintLayout>

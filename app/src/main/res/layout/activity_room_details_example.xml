@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomDetailsExampleActivity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Room length"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Room width"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:text="Cabinetry"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:text="Flooring"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:text="Countertops"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="204dp"
+        android:layout_marginStart="204dp"
+        android:text="Lighting"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="204dp"
+        android:layout_marginStart="204dp"
+        android:text="Plumbing"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:text="HVAC"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:text="Windows"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appliances"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/KitchenRoomDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kitchen Room Details"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
